@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark">
+    <!-- <div class="container-fluid p-2 bg-warning "> -->
+        <!-- px - padding for left and right -->
+        <!-- py- padding for top and bottom -->
+        <!-- <h3>Anime list</h3> -->
+        <nav class="navbar navbar-expand-lg bg-warning p-0 sticky-top">
+            <!-- you can add fixed-top, fixed-bottom sticky-top  -->
+            <div class="container-fluid">
+                <!-- navigation title -->
+                <a class="navbar-brand h2" href="">
+                    Anime list
+                </a>
+                <!-- navigation title -->
+                <!-- navigation buttom -->
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#NavigationCollapse1">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- navigation buttom -->
+                <!-- navigation list-->
+                <div class="collapse navbar-collapse" id="NavigationCollapse1">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                home
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown1" data-bs-toggle="dropdown">
+                                about
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#" class="dropdown-item">
+                                        Sample
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item">
+                                        Sample
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                contact us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Navigation list -->
+            </div>
+            
+        </nav>
+        <!-- </div> -->
+        <!-- this is for navigatorbar -->
+        <!-- <div class="container-fluid p-0">
+            <img src="img/anime1.jpg" class="w-100" > -->
+    <!-- </div> -->
+    <!-- carousel -->
+    <div id="carouselsample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button data-bs-target="#carouselsample" data-bs-slide-to="0" class="active">
+
+            </button>
+            <button data-bs-target="#carouselsample" data-bs-slide-to="1">
+                
+            </button>
+            <button data-bs-target="#carouselsample" data-bs-slide-to="2">
+                
+            </button>
+        </div>
+        <!-- carousel body -->
+        <div class="carousel-inner" style="max-width:300px;margin:auto">
+            <div class="carousel-item active ">
+                <img src="img/anime1.jpg" class="d-block w-100"  alt="">
+                <div class="carousel-caption d-block">
+                    <h3>sdasdasd</h3>
+                    <p>asdasdasdasdasd</p>
+
+                </div>
+            </div>
+            <div class="carousel-item pic-carousel">
+                <img src="img/anime2.jpg "class="d-block w-100"  alt="">
+            </div>
+            <div class="carousel-item pic-carousel">
+                <img src="img/anime2.jpg"class="d-block w-100"  alt="">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselsample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselsample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <!-- caroousel body -->
+    </div>
+    <div class="container ">
+        <!-- mx margin for left and right -->
+        <!-- my margin for top and bottom -->
+        <h1>Top anime of the week</h1>
+        <div class="row g-3">
+            <!-- start of col -->
+            
+            <div class="col-4">
+                <div class="card">
+                    <img src="img/anime1.jpg"  class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">anime Name</h5>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad asperiores eos quod soluta, id expedita voluptatum deserunt, beatae delectus minima enim pariatur ullam non nam! Omnis nihil aut voluptates quia.
+                            </p>
+                            <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#samplemodal1">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- end of col -->
+            <!-- start of col -->
+            
+            <div class="col-4">
+                <div class="card">
+                    <img src="img/anime1.jpg"  class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">anime Name</h5>
+                             <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad asperiores eos quod soluta, id expedita voluptatum deserunt, beatae delectus minima enim pariatur ullam non nam! Omnis nihil aut voluptates quia.
+                            </p>
+                            <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#samplemodal2">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- end of col -->
+            <!-- start of col -->
+            
+            <div class="col-4">
+                <div class="card">
+                    <img src="img/anime1.jpg"  class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">anime Name</h5>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad asperiores eos quod soluta, id expedita voluptatum deserunt, beatae delectus minima enim pariatur ullam non nam! Omnis nihil aut voluptates quia.
+                            </p>
+                            <a href="" class="btn btn-warning">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- end of col -->
+            <!-- start of col -->
+            
+            <div class="col-4">
+                <div class="card">
+                    <img src="img/anime1.jpg"  class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">anime Name</h5>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad asperiores eos quod soluta, id expedita voluptatum deserunt, beatae delectus minima enim pariatur ullam non nam! Omnis nihil aut voluptates quia.
+                            </p>
+                            <a href="" class="btn btn-warning">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- end of col -->
+            <!-- start of col -->
+            
+            <div class="col-4 ">
+                <div class="card">
+                    <img src="img/anime1.jpg"  class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">anime Name</h5>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad asperiores eos quod soluta, id expedita voluptatum deserunt, beatae delectus minima enim pariatur ullam non nam! Omnis nihil aut voluptates quia.
+                            </p>
+                            <a href="" class="btn btn-warning">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+<!-- end of container -->
+
+<div class="container-fluid bg-warning p-2">
+    <h6>Copyright 2023</h6>   
+</div>
+<!-- modal -->
+<div class="modal" id="samplemodal1">
+    <div class="modal-dialog">
+        <!-- modal sizes; modal-x1, modal-fullscreen, modal-lg, modal-sm -->
+        <div class="modal-content">
+            <div class="header">
+                <h5 class="modal-title"> sample title</h5>
+            </div>
+            <div class="modal-body text-center">
+                <img src="guitar 5.jpg" class="img-fluid">
+                <h3>Sample guitar</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe sed quas voluptas ab! Expedita accusamus repellendus illum saepe eius nam enim, commodi rem ea quidem nisi ratione rerum corporis nostrum?</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" data-bs-dismiss="modal"> close</button>
+                <!-- data bs dismiss for close the modal -->
+            </div>
+        </div>
+        
+    </div>
+
+</div>
+<!-- 2nd modal -->
+<div class="modal" id="samplemodal2">
+    <div class="modal-dialog">
+        <!-- modal sizes; modal-x1, modal-fullscreen, modal-lg, modal-sm -->
+        <div class="modal-content">
+            <div class="header">
+                <h5 class="modal-title"> 2nd modal</h5>
+            </div>
+            <div class="modal-body text-center">
+                <img src="img/anime2.jpg" class="img-fluid">
+                <h3>Sample guitar</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe sed quas voluptas ab! Expedita accusamus repellendus illum saepe eius nam enim, commodi rem ea quidem nisi ratione rerum corporis nostrum?</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" data-bs-dismiss="modal"> close</button>
+                <!-- data bs dismiss for close the modal -->
+            </div>
+        </div>
+        
+    </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

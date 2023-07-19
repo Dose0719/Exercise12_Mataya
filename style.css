@@ -1,0 +1,24 @@
+.logo{
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    /* margin-left: 300px ; */
+    /* position: absolute; */
+}
+.logo span{
+    color:brown;
+}
+.navbar-css{
+     /* margin-left: 700px; */
+}
+.navko{
+    /* height: 70px; */
+}
+.card-css{
+
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+.card-css:hover{
+    transform: scale(1.1);
+}
